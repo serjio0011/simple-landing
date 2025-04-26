@@ -4,9 +4,109 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Mulish"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./null.css" />
     <link rel="stylesheet" href="./style.css" />
   </head>
+
   <body>
-    <h1>Simple landing</h1>
+    <header class="header">
+      <div class="container">
+        <div class="header__row">
+          <h2 class="header__logo">logo</h2>
+          <nav class="header__nav">
+            <a href="" class="header__link">HOME</a>
+            <a href="" class="header__link">ABOUT</a>
+            <a href="" class="header__link">FAQs</a>
+          </nav>
+          <a href="" class="header__btn">Login</a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="home">
+        <div class="container">
+          <div class="home__row">
+            <div class="home__body">
+              <h1 class="home__title">Lorem ipsum dolor sit amet</h1>
+              <p class="home__text">
+                Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur.
+              </p>
+              <a href="" class="home__btn">GET STARTED</a>
+            </div>
+            <img src="./img/home.png" alt="" class="home__img" />
+          </div>
+        </div>
+      </section>
+      <section class="about">
+        <div class="container">
+          <div class="about__column">
+            <h2 class="about__title">Lorem ipsum dolor sit amet</h2>
+            <p class="about__text">
+              Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur.
+            </p>
+            <a href="" class="about__btn">GET STARTED</a>
+          </div>
+          <img src="./img/about.png" alt="" class="about__img" />
+        </div>
+      </section>
+      <section class="faq">
+        <div class="container">
+          <div class="faq__column">
+            <h3 class="faq__subtitle">Duis aute irure</h3>
+            <h2 class="faq__title">Lorem ipsum Newsletter</h2>
+            <p class="faq__text">
+              Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur.
+            </p>
+            <form action="" class="faq__form">
+              <input
+                type="email"
+                class="faq__input"
+                placeholder="your@email.com"
+              />
+              <button class="faq__btn" type="submit">SUBSCRIBE NOW</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__top">
+        <div class="container">
+          <div class="footer__row">
+            <h2 class="footer__title">LOGO</h2>
+            <div class="footer__column">
+              <h3 class="footer__name">QUICK LINKS</h3>
+              <a href="" class="footer__link">HOME</a>
+              <a href="" class="footer__link">ABOUT</a>
+            </div>
+            <div class="footer__column">
+              <h3 class="footer__name">ABOUT</h3>
+              <a href="" class="footer__link">TERMS AND PRIVACY</a>
+              <a href="" class="footer__link">FAQs</a>
+            </div>
+            <div class="footer__column">
+              <h3 class="footer__name">CONTACT US</h3>
+              <a href="" class="footer__link">123, Adress St., City</a>
+              <a href="" class="footer__link">09123456789</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <p class="footer__text">Jhay Jhay Creatives - All Rights Reserved</p>
+    </footer>
   </body>
 </html>
